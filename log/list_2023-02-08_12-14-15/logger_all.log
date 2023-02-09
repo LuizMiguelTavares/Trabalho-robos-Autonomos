@@ -1,0 +1,86 @@
+[4.099s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/miguel/robos_autonomos']
+[4.100s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/miguel/robos_autonomos'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fd86a9ddcc0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7fd86a927eb0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7fd86a927eb0>>)
+[4.340s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.341s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.341s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.341s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.341s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.342s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/miguel/robos_autonomos'
+[4.342s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos) by extensions ['ignore', 'ignore_ament_install']
+[4.343s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos) by extension 'ignore'
+[4.343s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos) by extension 'ignore_ament_install'
+[4.345s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos) by extensions ['colcon_pkg']
+[4.346s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos) by extension 'colcon_pkg'
+[4.347s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos) by extensions ['colcon_meta']
+[4.348s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos) by extension 'colcon_meta'
+[4.349s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos) by extensions ['ros']
+[4.349s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos) by extension 'ros'
+[4.435s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos) by extensions ['cmake', 'python']
+[4.436s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos) by extension 'cmake'
+[4.436s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos) by extension 'python'
+[4.436s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos) by extensions ['python_setup_py']
+[4.436s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos) by extension 'python_setup_py'
+[4.438s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos/build) by extensions ['ignore', 'ignore_ament_install']
+[4.440s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos/build) by extension 'ignore'
+[4.441s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos/build) ignored
+[4.443s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos/install) by extensions ['ignore', 'ignore_ament_install']
+[4.445s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos/install) by extension 'ignore'
+[4.446s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos/install) ignored
+[4.448s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos/log) by extensions ['ignore', 'ignore_ament_install']
+[4.448s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos/log) by extension 'ignore'
+[4.449s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos/log) ignored
+[4.449s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos/src) by extensions ['ignore', 'ignore_ament_install']
+[4.450s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos/src) by extension 'ignore'
+[4.450s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos/src) by extension 'ignore_ament_install'
+[4.451s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos/src) by extensions ['colcon_pkg']
+[4.451s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos/src) by extension 'colcon_pkg'
+[4.451s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos/src) by extensions ['colcon_meta']
+[4.451s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos/src) by extension 'colcon_meta'
+[4.451s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos/src) by extensions ['ros']
+[4.451s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos/src) by extension 'ros'
+[4.452s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos/src) by extensions ['cmake', 'python']
+[4.453s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos/src) by extension 'cmake'
+[4.454s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos/src) by extension 'python'
+[4.455s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos/src) by extensions ['python_setup_py']
+[4.456s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos/src) by extension 'python_setup_py'
+[4.457s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos/src/tb3_ra) by extensions ['ignore', 'ignore_ament_install']
+[4.458s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos/src/tb3_ra) by extension 'ignore'
+[4.458s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos/src/tb3_ra) by extension 'ignore_ament_install'
+[4.459s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos/src/tb3_ra) by extensions ['colcon_pkg']
+[4.460s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos/src/tb3_ra) by extension 'colcon_pkg'
+[4.461s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos/src/tb3_ra) by extensions ['colcon_meta']
+[4.462s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos/src/tb3_ra) by extension 'colcon_meta'
+[4.463s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos/src/tb3_ra) by extensions ['ros']
+[4.463s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos/src/tb3_ra) by extension 'ros'
+[4.479s] DEBUG:colcon.colcon_core.package_identification:Package '/home/miguel/robos_autonomos/src/tb3_ra' with type 'ros.ament_python' and name 'tb3_ra'
+[4.481s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos/src/tb3_ra2) by extensions ['ignore', 'ignore_ament_install']
+[4.483s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos/src/tb3_ra2) by extension 'ignore'
+[4.483s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos/src/tb3_ra2) by extension 'ignore_ament_install'
+[4.491s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos/src/tb3_ra2) by extensions ['colcon_pkg']
+[4.491s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos/src/tb3_ra2) by extension 'colcon_pkg'
+[4.491s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos/src/tb3_ra2) by extensions ['colcon_meta']
+[4.492s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos/src/tb3_ra2) by extension 'colcon_meta'
+[4.492s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos/src/tb3_ra2) by extensions ['ros']
+[4.492s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos/src/tb3_ra2) by extension 'ros'
+[4.495s] DEBUG:colcon.colcon_core.package_identification:Package '/home/miguel/robos_autonomos/src/tb3_ra2' with type 'ros.ament_python' and name 'tb3_ra2'
+[4.495s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos/src/tb3_ra_bringup) by extensions ['ignore', 'ignore_ament_install']
+[4.496s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos/src/tb3_ra_bringup) by extension 'ignore'
+[4.496s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos/src/tb3_ra_bringup) by extension 'ignore_ament_install'
+[4.496s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos/src/tb3_ra_bringup) by extensions ['colcon_pkg']
+[4.496s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos/src/tb3_ra_bringup) by extension 'colcon_pkg'
+[4.502s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos/src/tb3_ra_bringup) by extensions ['colcon_meta']
+[4.502s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos/src/tb3_ra_bringup) by extension 'colcon_meta'
+[4.503s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos/src/tb3_ra_bringup) by extensions ['ros']
+[4.503s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos/src/tb3_ra_bringup) by extension 'ros'
+[4.507s] DEBUG:colcon.colcon_core.package_identification:Package '/home/miguel/robos_autonomos/src/tb3_ra_bringup' with type 'ros.ament_cmake' and name 'tb3_ra_bringup'
+[4.538s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos/src/tb3_ra_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[4.538s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos/src/tb3_ra_interfaces) by extension 'ignore'
+[4.538s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos/src/tb3_ra_interfaces) by extension 'ignore_ament_install'
+[4.539s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos/src/tb3_ra_interfaces) by extensions ['colcon_pkg']
+[4.539s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos/src/tb3_ra_interfaces) by extension 'colcon_pkg'
+[4.539s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos/src/tb3_ra_interfaces) by extensions ['colcon_meta']
+[4.539s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos/src/tb3_ra_interfaces) by extension 'colcon_meta'
+[4.539s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos/src/tb3_ra_interfaces) by extensions ['ros']
+[4.539s] Level 1:colcon.colcon_core.package_identification:_identify(/home/miguel/robos_autonomos/src/tb3_ra_interfaces) by extension 'ros'
+[4.542s] DEBUG:colcon.colcon_core.package_identification:Package '/home/miguel/robos_autonomos/src/tb3_ra_interfaces' with type 'ros.ament_cmake' and name 'tb3_ra_interfaces'
+[4.544s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

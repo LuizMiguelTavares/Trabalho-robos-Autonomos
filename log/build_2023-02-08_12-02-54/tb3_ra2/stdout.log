@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing tb3_ra2.egg-info/PKG-INFO
+writing dependency_links to tb3_ra2.egg-info/dependency_links.txt
+writing entry points to tb3_ra2.egg-info/entry_points.txt
+writing requirements to tb3_ra2.egg-info/requires.txt
+writing top-level names to tb3_ra2.egg-info/top_level.txt
+reading manifest file 'tb3_ra2.egg-info/SOURCES.txt'
+writing manifest file 'tb3_ra2.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/miguel/robos_autonomos/install/tb3_ra2/lib/python3.10/site-packages/tb3-ra2.egg-link (link to .)
+Installing turtlebot3_control_2 script to /home/miguel/robos_autonomos/install/tb3_ra2/lib/tb3_ra2
+Installing turtlebot3_control_2_marcal script to /home/miguel/robos_autonomos/install/tb3_ra2/lib/tb3_ra2
+
+Installed /home/miguel/robos_autonomos/build/tb3_ra2
+running install_data

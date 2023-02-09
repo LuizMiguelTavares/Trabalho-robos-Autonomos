@@ -1,0 +1,4 @@
+[console_scripts]
+turtlebot3_control_2 = tb3_ra2.turtlebot3_control_2:main
+turtlebot3_control_2_marcal = tb3_ra2.turtlebot3_control_2_marcal:main
+

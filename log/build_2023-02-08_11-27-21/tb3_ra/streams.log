@@ -1,0 +1,37 @@
+[1.048s] Invoking command in '/home/miguel/robos_autonomos/build/tb3_ra': PYTHONPATH=/home/miguel/robos_autonomos/build/tb3_ra/prefix_override:/home/miguel/robos_autonomos/install/tb3_ra/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/miguel/robos_autonomos/build/tb3_ra/build
+[1.338s] running develop
+[1.528s] Removing /home/miguel/robos_autonomos/install/tb3_ra/lib/python3.10/site-packages/tb3-ra.egg-link (link to .)
+[1.579s] Invoked command in '/home/miguel/robos_autonomos/build/tb3_ra' returned '0': PYTHONPATH=/home/miguel/robos_autonomos/build/tb3_ra/prefix_override:/home/miguel/robos_autonomos/install/tb3_ra/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/miguel/robos_autonomos/build/tb3_ra/build
+[1.580s] Invoking command in '/home/miguel/robos_autonomos/src/tb3_ra': PYTHONPATH=/home/miguel/robos_autonomos/build/tb3_ra/prefix_override:/home/miguel/robos_autonomos/install/tb3_ra/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tb3_ra build --build-base /home/miguel/robos_autonomos/build/tb3_ra/build install --record /home/miguel/robos_autonomos/build/tb3_ra/install.log --single-version-externally-managed
+[1.857s] running egg_info
+[1.860s] writing ../../build/tb3_ra/tb3_ra.egg-info/PKG-INFO
+[1.860s] writing dependency_links to ../../build/tb3_ra/tb3_ra.egg-info/dependency_links.txt
+[1.860s] writing entry points to ../../build/tb3_ra/tb3_ra.egg-info/entry_points.txt
+[1.860s] writing requirements to ../../build/tb3_ra/tb3_ra.egg-info/requires.txt
+[1.861s] writing top-level names to ../../build/tb3_ra/tb3_ra.egg-info/top_level.txt
+[1.864s] reading manifest file '../../build/tb3_ra/tb3_ra.egg-info/SOURCES.txt'
+[1.866s] writing manifest file '../../build/tb3_ra/tb3_ra.egg-info/SOURCES.txt'
+[1.866s] running build
+[1.866s] running build_py
+[1.867s] copying tb3_ra/turtlebot3_control.py -> /home/miguel/robos_autonomos/build/tb3_ra/build/lib/tb3_ra
+[1.868s] copying tb3_ra/map_creator.py -> /home/miguel/robos_autonomos/build/tb3_ra/build/lib/tb3_ra
+[1.868s] running install
+[1.868s] running install_lib
+[1.869s] creating /home/miguel/robos_autonomos/install/tb3_ra/lib/python3.10/site-packages/tb3_ra
+[1.869s] copying /home/miguel/robos_autonomos/build/tb3_ra/build/lib/tb3_ra/turtlebot3_control.py -> /home/miguel/robos_autonomos/install/tb3_ra/lib/python3.10/site-packages/tb3_ra
+[1.869s] copying /home/miguel/robos_autonomos/build/tb3_ra/build/lib/tb3_ra/__init__.py -> /home/miguel/robos_autonomos/install/tb3_ra/lib/python3.10/site-packages/tb3_ra
+[1.870s] copying /home/miguel/robos_autonomos/build/tb3_ra/build/lib/tb3_ra/map_creator.py -> /home/miguel/robos_autonomos/install/tb3_ra/lib/python3.10/site-packages/tb3_ra
+[1.870s] copying /home/miguel/robos_autonomos/build/tb3_ra/build/lib/tb3_ra/printing_map.py -> /home/miguel/robos_autonomos/install/tb3_ra/lib/python3.10/site-packages/tb3_ra
+[1.871s] byte-compiling /home/miguel/robos_autonomos/install/tb3_ra/lib/python3.10/site-packages/tb3_ra/turtlebot3_control.py to turtlebot3_control.cpython-310.pyc
+[1.873s] byte-compiling /home/miguel/robos_autonomos/install/tb3_ra/lib/python3.10/site-packages/tb3_ra/__init__.py to __init__.cpython-310.pyc
+[1.873s] byte-compiling /home/miguel/robos_autonomos/install/tb3_ra/lib/python3.10/site-packages/tb3_ra/map_creator.py to map_creator.cpython-310.pyc
+[1.877s] byte-compiling /home/miguel/robos_autonomos/install/tb3_ra/lib/python3.10/site-packages/tb3_ra/printing_map.py to printing_map.cpython-310.pyc
+[1.879s] running install_data
+[1.882s] running install_egg_info
+[1.883s] Copying ../../build/tb3_ra/tb3_ra.egg-info to /home/miguel/robos_autonomos/install/tb3_ra/lib/python3.10/site-packages/tb3_ra-0.0.0-py3.10.egg-info
+[1.884s] running install_scripts
+[1.909s] Installing map_creator script to /home/miguel/robos_autonomos/install/tb3_ra/lib/tb3_ra
+[1.909s] Installing printing_map script to /home/miguel/robos_autonomos/install/tb3_ra/lib/tb3_ra
+[1.910s] Installing turtlebot3_control script to /home/miguel/robos_autonomos/install/tb3_ra/lib/tb3_ra
+[1.910s] writing list of installed files to '/home/miguel/robos_autonomos/build/tb3_ra/install.log'
+[1.992s] Invoked command in '/home/miguel/robos_autonomos/src/tb3_ra' returned '0': PYTHONPATH=/home/miguel/robos_autonomos/build/tb3_ra/prefix_override:/home/miguel/robos_autonomos/install/tb3_ra/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tb3_ra build --build-base /home/miguel/robos_autonomos/build/tb3_ra/build install --record /home/miguel/robos_autonomos/build/tb3_ra/install.log --single-version-externally-managed

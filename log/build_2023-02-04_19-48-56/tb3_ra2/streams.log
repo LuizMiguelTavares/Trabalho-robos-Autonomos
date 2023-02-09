@@ -1,0 +1,18 @@
+[3.917s] Invoking command in '/home/miguel/robos_autonomos/build/tb3_ra2': PYTHONPATH=/home/miguel/robos_autonomos/build/tb3_ra2/prefix_override:/home/miguel/robos_autonomos/install/tb3_ra2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/miguel/robos_autonomos/build/tb3_ra2/build --no-deps install_data
+[5.226s] running develop
+[5.974s] running egg_info
+[5.975s] writing tb3_ra2.egg-info/PKG-INFO
+[5.975s] writing dependency_links to tb3_ra2.egg-info/dependency_links.txt
+[5.976s] writing entry points to tb3_ra2.egg-info/entry_points.txt
+[5.976s] writing requirements to tb3_ra2.egg-info/requires.txt
+[5.976s] writing top-level names to tb3_ra2.egg-info/top_level.txt
+[5.982s] reading manifest file 'tb3_ra2.egg-info/SOURCES.txt'
+[5.985s] writing manifest file 'tb3_ra2.egg-info/SOURCES.txt'
+[5.989s] running build_ext
+[5.989s] Creating /home/miguel/robos_autonomos/install/tb3_ra2/lib/python3.10/site-packages/tb3-ra2.egg-link (link to .)
+[5.992s] Installing camera_reading script to /home/miguel/robos_autonomos/install/tb3_ra2/lib/tb3_ra2
+[5.992s] Installing turtlebot3_control_2 script to /home/miguel/robos_autonomos/install/tb3_ra2/lib/tb3_ra2
+[5.993s] 
+[5.995s] Installed /home/miguel/robos_autonomos/build/tb3_ra2
+[5.995s] running install_data
+[6.122s] Invoked command in '/home/miguel/robos_autonomos/build/tb3_ra2' returned '0': PYTHONPATH=/home/miguel/robos_autonomos/build/tb3_ra2/prefix_override:/home/miguel/robos_autonomos/install/tb3_ra2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/miguel/robos_autonomos/build/tb3_ra2/build --no-deps install_data

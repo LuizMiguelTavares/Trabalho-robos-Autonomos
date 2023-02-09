@@ -1,0 +1,1 @@
+/home/miguel/robos_autonomos/build/tb3_ra_interfaces/ament_cmake_environment_hooks/pythonpath.sh

@@ -1,0 +1,27 @@
+[0.011s] Invoking command in '/home/miguel/robos_autonomos/build/tb3_ra_bringup': AMENT_PREFIX_PATH=/home/miguel/robos_autonomos/install/tb3_ra:/home/miguel/robos_autonomos/install/tb3_ra_bringup:/home/miguel/turtlebot3_ws/install/turtlebot3_simulations:/home/miguel/turtlebot3_ws/install/turtlebot3_gazebo:/home/miguel/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/miguel/robos_autonomos/install/tb3_ra:/opt/ros/humble /usr/bin/cmake --build /home/miguel/robos_autonomos/build/tb3_ra_bringup -- -j8 -l8
+[0.031s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.163s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.238s] -- Configuring done
+[0.243s] -- Generating done
+[0.244s] -- Build files have been written to: /home/miguel/robos_autonomos/build/tb3_ra_bringup
+[0.260s] Invoked command in '/home/miguel/robos_autonomos/build/tb3_ra_bringup' returned '0': AMENT_PREFIX_PATH=/home/miguel/robos_autonomos/install/tb3_ra:/home/miguel/robos_autonomos/install/tb3_ra_bringup:/home/miguel/turtlebot3_ws/install/turtlebot3_simulations:/home/miguel/turtlebot3_ws/install/turtlebot3_gazebo:/home/miguel/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/miguel/robos_autonomos/install/tb3_ra:/opt/ros/humble /usr/bin/cmake --build /home/miguel/robos_autonomos/build/tb3_ra_bringup -- -j8 -l8
+[0.282s] Invoking command in '/home/miguel/robos_autonomos/build/tb3_ra_bringup': AMENT_PREFIX_PATH=/home/miguel/robos_autonomos/install/tb3_ra:/home/miguel/robos_autonomos/install/tb3_ra_bringup:/home/miguel/turtlebot3_ws/install/turtlebot3_simulations:/home/miguel/turtlebot3_ws/install/turtlebot3_gazebo:/home/miguel/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/miguel/robos_autonomos/install/tb3_ra:/opt/ros/humble /usr/bin/cmake --install /home/miguel/robos_autonomos/build/tb3_ra_bringup
+[0.288s] -- Install configuration: ""
+[0.288s] -- Execute custom install script
+[0.289s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_bringup/share/tb3_ra_bringup/launch/tb3_ra_project.launch.py
+[0.289s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_bringup/share/ament_index/resource_index/package_run_dependencies/tb3_ra_bringup
+[0.290s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_bringup/share/ament_index/resource_index/parent_prefix_path/tb3_ra_bringup
+[0.290s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_bringup/share/tb3_ra_bringup/environment/ament_prefix_path.sh
+[0.290s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_bringup/share/tb3_ra_bringup/environment/ament_prefix_path.dsv
+[0.290s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_bringup/share/tb3_ra_bringup/environment/path.sh
+[0.291s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_bringup/share/tb3_ra_bringup/environment/path.dsv
+[0.291s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_bringup/share/tb3_ra_bringup/local_setup.bash
+[0.291s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_bringup/share/tb3_ra_bringup/local_setup.sh
+[0.292s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_bringup/share/tb3_ra_bringup/local_setup.zsh
+[0.292s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_bringup/share/tb3_ra_bringup/local_setup.dsv
+[0.292s] -- Symlinking: /home/miguel/robos_autonomos/install/tb3_ra_bringup/share/tb3_ra_bringup/package.dsv
+[0.299s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_bringup/share/ament_index/resource_index/packages/tb3_ra_bringup
+[0.300s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_bringup/share/tb3_ra_bringup/cmake/tb3_ra_bringupConfig.cmake
+[0.300s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_bringup/share/tb3_ra_bringup/cmake/tb3_ra_bringupConfig-version.cmake
+[0.300s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_bringup/share/tb3_ra_bringup/package.xml
+[0.304s] Invoked command in '/home/miguel/robos_autonomos/build/tb3_ra_bringup' returned '0': AMENT_PREFIX_PATH=/home/miguel/robos_autonomos/install/tb3_ra:/home/miguel/robos_autonomos/install/tb3_ra_bringup:/home/miguel/turtlebot3_ws/install/turtlebot3_simulations:/home/miguel/turtlebot3_ws/install/turtlebot3_gazebo:/home/miguel/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/miguel/robos_autonomos/install/tb3_ra:/opt/ros/humble /usr/bin/cmake --install /home/miguel/robos_autonomos/build/tb3_ra_bringup

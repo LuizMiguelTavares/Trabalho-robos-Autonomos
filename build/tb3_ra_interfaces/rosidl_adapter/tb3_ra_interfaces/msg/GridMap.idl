@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from tb3_ra_interfaces/msg/GridMap.msg
+// generated code does not contain a copyright notice
+
+
+module tb3_ra_interfaces {
+  module msg {
+    struct GridMap {
+      float width;
+
+      float heigth;
+
+      float resolution;
+
+      sequence<int32> x_grid;
+
+      sequence<int32> y_grid;
+
+      sequence<int32> weight;
+
+      sequence<float> degree;
+
+      float x_to_go;
+
+      float y_to_go;
+    };
+  };
+};

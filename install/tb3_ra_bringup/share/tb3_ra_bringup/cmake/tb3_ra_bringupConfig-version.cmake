@@ -1,0 +1,1 @@
+/home/miguel/robos_autonomos/build/tb3_ra_bringup/ament_cmake_core/tb3_ra_bringupConfig-version.cmake

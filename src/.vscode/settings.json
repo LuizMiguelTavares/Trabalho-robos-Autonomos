@@ -1,0 +1,15 @@
+{
+    "cmake.configureOnOpen": true,
+    "python.autoComplete.extraPaths": [
+        "/home/miguel/robos_autonomos/build/tb3_ra",
+        "/home/miguel/robos_autonomos/install/tb3_ra/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/miguel/robos_autonomos/build/tb3_ra",
+        "/home/miguel/robos_autonomos/install/tb3_ra/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

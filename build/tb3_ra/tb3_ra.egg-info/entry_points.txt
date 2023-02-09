@@ -1,0 +1,5 @@
+[console_scripts]
+map_creator = tb3_ra.map_creator:main
+printing_map = tb3_ra.printing_map:main
+turtlebot3_control = tb3_ra.turtlebot3_control:main
+

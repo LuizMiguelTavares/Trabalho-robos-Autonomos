@@ -1,0 +1,9 @@
+float32 width      
+float32 heigth        
+float32 resolution
+int32[] x_grid
+int32[] y_grid
+int32[] weight
+float32[] degree
+float32 x_to_go
+float32 y_to_go

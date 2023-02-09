@@ -1,0 +1,187 @@
+[0.400s] Invoking command in '/home/miguel/robos_autonomos/build/tb3_ra_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/miguel/robos_autonomos/install/tb3_ra:/opt/ros/humble /usr/bin/cmake --build /home/miguel/robos_autonomos/build/tb3_ra_interfaces -- -j8 -l8
+[0.437s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.631s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.646s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.649s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.654s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.705s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.092s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.329s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.673s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.713s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.754s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.754s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.754s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.797s] -- Configuring done
+[1.851s] -- Generating done
+[1.854s] -- Build files have been written to: /home/miguel/robos_autonomos/build/tb3_ra_interfaces
+[1.883s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.895s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.905s] [  6%] Built target ament_cmake_python_symlink_tb3_ra_interfaces
+[2.263s] [  6%] Built target tb3_ra_interfaces__cpp
+[2.270s] [35m[1mConsolidate compiler generated dependencies of target tb3_ra_interfaces__rosidl_generator_c[0m
+[2.278s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.279s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.282s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.289s] [ 19%] [32mBuilding C object CMakeFiles/tb3_ra_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tb3_ra_interfaces/msg/detail/grid_map__functions.c.o[0m
+[2.309s] running egg_info
+[2.311s] writing tb3_ra_interfaces.egg-info/PKG-INFO
+[2.311s] writing dependency_links to tb3_ra_interfaces.egg-info/dependency_links.txt
+[2.312s] writing top-level names to tb3_ra_interfaces.egg-info/top_level.txt
+[2.316s] reading manifest file 'tb3_ra_interfaces.egg-info/SOURCES.txt'
+[2.317s] writing manifest file 'tb3_ra_interfaces.egg-info/SOURCES.txt'
+[2.396s] [ 19%] Built target ament_cmake_python_build_tb3_ra_interfaces_egg
+[2.416s] [ 22%] [32m[1mLinking C shared library libtb3_ra_interfaces__rosidl_generator_c.so[0m
+[2.476s] [ 22%] Built target tb3_ra_interfaces__rosidl_generator_c
+[2.490s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.490s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.491s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.725s] [35m[1mConsolidate compiler generated dependencies of target tb3_ra_interfaces__rosidl_typesupport_introspection_cpp[0m
+[2.735s] [35m[1mConsolidate compiler generated dependencies of target tb3_ra_interfaces__rosidl_typesupport_cpp[0m
+[2.748s] [ 35%] [32mBuilding CXX object CMakeFiles/tb3_ra_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tb3_ra_interfaces/msg/detail/grid_map__type_support.cpp.o[0m
+[2.760s] [ 38%] [32mBuilding CXX object CMakeFiles/tb3_ra_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tb3_ra_interfaces/msg/grid_map__type_support.cpp.o[0m
+[2.823s] [35m[1mConsolidate compiler generated dependencies of target tb3_ra_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[2.842s] [ 41%] [32mBuilding CXX object CMakeFiles/tb3_ra_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tb3_ra_interfaces/msg/detail/dds_fastrtps/grid_map__type_support.cpp.o[0m
+[2.971s] [35m[1mConsolidate compiler generated dependencies of target tb3_ra_interfaces__rosidl_typesupport_c[0m
+[2.991s] [ 45%] [32mBuilding CXX object CMakeFiles/tb3_ra_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tb3_ra_interfaces/msg/grid_map__type_support.cpp.o[0m
+[3.036s] [35m[1mConsolidate compiler generated dependencies of target tb3_ra_interfaces__rosidl_typesupport_introspection_c[0m
+[3.055s] [ 48%] [32m[1mLinking CXX shared library libtb3_ra_interfaces__rosidl_typesupport_c.so[0m
+[3.065s] [ 51%] [32mBuilding C object CMakeFiles/tb3_ra_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tb3_ra_interfaces/msg/detail/grid_map__type_support.c.o[0m
+[3.125s] [35m[1mConsolidate compiler generated dependencies of target tb3_ra_interfaces__rosidl_typesupport_fastrtps_c[0m
+[3.150s] [ 54%] [32mBuilding CXX object CMakeFiles/tb3_ra_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tb3_ra_interfaces/msg/detail/grid_map__type_support_c.cpp.o[0m
+[3.152s] [ 54%] Built target tb3_ra_interfaces__rosidl_typesupport_c
+[3.167s] [ 58%] [32m[1mLinking C shared library libtb3_ra_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.226s] [ 58%] Built target tb3_ra_interfaces__rosidl_typesupport_introspection_c
+[3.320s] [ 61%] [32m[1mLinking CXX shared library libtb3_ra_interfaces__rosidl_typesupport_cpp.so[0m
+[3.379s] [ 61%] Built target tb3_ra_interfaces__rosidl_typesupport_cpp
+[3.591s] [ 64%] [32m[1mLinking CXX shared library libtb3_ra_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.685s] [ 67%] [32m[1mLinking CXX shared library libtb3_ra_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.708s] [ 70%] [32m[1mLinking CXX shared library libtb3_ra_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.727s] [ 70%] Built target tb3_ra_interfaces__rosidl_typesupport_introspection_cpp
+[3.825s] [ 70%] Built target tb3_ra_interfaces__rosidl_typesupport_fastrtps_cpp
+[3.853s] [ 70%] Built target tb3_ra_interfaces__rosidl_typesupport_fastrtps_c
+[3.877s] [ 70%] Built target tb3_ra_interfaces
+[3.902s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.272s] [ 74%] Built target tb3_ra_interfaces__py
+[4.283s] [35m[1mConsolidate compiler generated dependencies of target tb3_ra_interfaces__rosidl_generator_py[0m
+[4.297s] [ 77%] [32mBuilding C object CMakeFiles/tb3_ra_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tb3_ra_interfaces/msg/_grid_map_s.c.o[0m
+[4.436s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/tb3_ra_interfaces/libtb3_ra_interfaces__rosidl_generator_py.so[0m
+[4.476s] [ 80%] Built target tb3_ra_interfaces__rosidl_generator_py
+[4.486s] [35m[1mConsolidate compiler generated dependencies of target tb3_ra_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[4.487s] [35m[1mConsolidate compiler generated dependencies of target tb3_ra_interfaces__rosidl_typesupport_c__pyext[0m
+[4.487s] [35m[1mConsolidate compiler generated dependencies of target tb3_ra_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[4.498s] [ 87%] [32mBuilding C object CMakeFiles/tb3_ra_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tb3_ra_interfaces/_tb3_ra_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.498s] [ 87%] [32mBuilding C object CMakeFiles/tb3_ra_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tb3_ra_interfaces/_tb3_ra_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[4.500s] [ 90%] [32mBuilding C object CMakeFiles/tb3_ra_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tb3_ra_interfaces/_tb3_ra_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.601s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/tb3_ra_interfaces/tb3_ra_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.603s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/tb3_ra_interfaces/tb3_ra_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.605s] [100%] [32m[1mLinking C shared library rosidl_generator_py/tb3_ra_interfaces/tb3_ra_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.645s] [100%] Built target tb3_ra_interfaces__rosidl_typesupport_introspection_c__pyext
+[4.645s] [100%] Built target tb3_ra_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[4.649s] [100%] Built target tb3_ra_interfaces__rosidl_typesupport_c__pyext
+[4.662s] Invoked command in '/home/miguel/robos_autonomos/build/tb3_ra_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/miguel/robos_autonomos/install/tb3_ra:/opt/ros/humble /usr/bin/cmake --build /home/miguel/robos_autonomos/build/tb3_ra_interfaces -- -j8 -l8
+[4.717s] Invoking command in '/home/miguel/robos_autonomos/build/tb3_ra_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/miguel/robos_autonomos/install/tb3_ra:/opt/ros/humble /usr/bin/cmake --install /home/miguel/robos_autonomos/build/tb3_ra_interfaces
+[4.726s] -- Install configuration: ""
+[4.727s] -- Execute custom install script
+[4.727s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/ament_index/resource_index/rosidl_interfaces/tb3_ra_interfaces
+[4.728s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/include/tb3_ra_interfaces/tb3_ra_interfaces/msg/detail/grid_map__functions.h
+[4.728s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/include/tb3_ra_interfaces/tb3_ra_interfaces/msg/detail/grid_map__struct.h
+[4.728s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/include/tb3_ra_interfaces/tb3_ra_interfaces/msg/detail/grid_map__type_support.h
+[4.729s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/include/tb3_ra_interfaces/tb3_ra_interfaces/msg/grid_map.h
+[4.729s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/include/tb3_ra_interfaces/tb3_ra_interfaces/msg/rosidl_generator_c__visibility_control.h
+[4.729s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/tb3_ra_interfaces/environment/library_path.sh
+[4.729s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/tb3_ra_interfaces/environment/library_path.dsv
+[4.730s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/include/tb3_ra_interfaces/tb3_ra_interfaces/msg/detail/grid_map__rosidl_typesupport_fastrtps_c.h
+[4.730s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/include/tb3_ra_interfaces/tb3_ra_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.731s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/include/tb3_ra_interfaces/tb3_ra_interfaces/msg/detail/grid_map__rosidl_typesupport_introspection_c.h
+[4.731s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/include/tb3_ra_interfaces/tb3_ra_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.732s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/include/tb3_ra_interfaces/tb3_ra_interfaces/msg/detail/grid_map__builder.hpp
+[4.732s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/include/tb3_ra_interfaces/tb3_ra_interfaces/msg/detail/grid_map__struct.hpp
+[4.733s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/include/tb3_ra_interfaces/tb3_ra_interfaces/msg/detail/grid_map__traits.hpp
+[4.733s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/include/tb3_ra_interfaces/tb3_ra_interfaces/msg/grid_map.hpp
+[4.734s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/include/tb3_ra_interfaces/tb3_ra_interfaces/msg/detail/grid_map__rosidl_typesupport_fastrtps_cpp.hpp
+[4.734s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/include/tb3_ra_interfaces/tb3_ra_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.734s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/include/tb3_ra_interfaces/tb3_ra_interfaces/msg/detail/grid_map__rosidl_typesupport_introspection_cpp.hpp
+[4.735s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/tb3_ra_interfaces/environment/pythonpath.sh
+[4.735s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/tb3_ra_interfaces/environment/pythonpath.dsv
+[4.735s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/local/lib/python3.10/dist-packages/tb3_ra_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[4.735s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/local/lib/python3.10/dist-packages/tb3_ra_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.736s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/local/lib/python3.10/dist-packages/tb3_ra_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.736s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/local/lib/python3.10/dist-packages/tb3_ra_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[4.736s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/local/lib/python3.10/dist-packages/tb3_ra_interfaces/__init__.py
+[4.737s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/local/lib/python3.10/dist-packages/tb3_ra_interfaces/_tb3_ra_interfaces_s.ep.rosidl_typesupport_c.c
+[4.737s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/local/lib/python3.10/dist-packages/tb3_ra_interfaces/_tb3_ra_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.737s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/local/lib/python3.10/dist-packages/tb3_ra_interfaces/_tb3_ra_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[4.738s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/local/lib/python3.10/dist-packages/tb3_ra_interfaces/libtb3_ra_interfaces__rosidl_generator_py.so
+[4.738s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/local/lib/python3.10/dist-packages/tb3_ra_interfaces/msg/__init__.py
+[4.738s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/local/lib/python3.10/dist-packages/tb3_ra_interfaces/msg/_grid_map.py
+[4.738s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/local/lib/python3.10/dist-packages/tb3_ra_interfaces/msg/_grid_map_s.c
+[4.739s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/local/lib/python3.10/dist-packages/tb3_ra_interfaces/tb3_ra_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.739s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/local/lib/python3.10/dist-packages/tb3_ra_interfaces/tb3_ra_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.739s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/local/lib/python3.10/dist-packages/tb3_ra_interfaces/tb3_ra_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.739s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/local/lib/python3.10/dist-packages/tb3_ra_interfaces/tb3_ra_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.739s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/local/lib/python3.10/dist-packages/tb3_ra_interfaces/tb3_ra_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.739s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/local/lib/python3.10/dist-packages/tb3_ra_interfaces/tb3_ra_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.740s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/tb3_ra_interfaces/msg/GridMap.idl
+[4.740s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/tb3_ra_interfaces/msg/GridMap.msg
+[4.740s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/ament_index/resource_index/package_run_dependencies/tb3_ra_interfaces
+[4.741s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/ament_index/resource_index/parent_prefix_path/tb3_ra_interfaces
+[4.741s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/tb3_ra_interfaces/environment/ament_prefix_path.sh
+[4.741s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/tb3_ra_interfaces/environment/ament_prefix_path.dsv
+[4.742s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/tb3_ra_interfaces/environment/path.sh
+[4.742s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/tb3_ra_interfaces/environment/path.dsv
+[4.742s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/tb3_ra_interfaces/local_setup.bash
+[4.742s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/tb3_ra_interfaces/local_setup.sh
+[4.743s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/tb3_ra_interfaces/local_setup.zsh
+[4.743s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/tb3_ra_interfaces/local_setup.dsv
+[4.743s] -- Symlinking: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/tb3_ra_interfaces/package.dsv
+[4.751s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/ament_index/resource_index/packages/tb3_ra_interfaces
+[4.752s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/tb3_ra_interfaces/cmake/rosidl_cmake-extras.cmake
+[4.752s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/tb3_ra_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.752s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/tb3_ra_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[4.753s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/tb3_ra_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[4.753s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/tb3_ra_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.753s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/tb3_ra_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.753s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/tb3_ra_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.754s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/tb3_ra_interfaces/cmake/tb3_ra_interfacesConfig.cmake
+[4.754s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/tb3_ra_interfaces/cmake/tb3_ra_interfacesConfig-version.cmake
+[4.754s] -- Up-to-date symlink: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/tb3_ra_interfaces/package.xml
+[4.754s] -- Installing: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/lib/libtb3_ra_interfaces__rosidl_generator_c.so
+[4.755s] -- Set runtime path of "/home/miguel/robos_autonomos/install/tb3_ra_interfaces/lib/libtb3_ra_interfaces__rosidl_generator_c.so" to ""
+[4.755s] -- Installing: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/lib/libtb3_ra_interfaces__rosidl_typesupport_fastrtps_c.so
+[4.755s] -- Set runtime path of "/home/miguel/robos_autonomos/install/tb3_ra_interfaces/lib/libtb3_ra_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[4.756s] -- Installing: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/lib/libtb3_ra_interfaces__rosidl_typesupport_introspection_c.so
+[4.756s] -- Set runtime path of "/home/miguel/robos_autonomos/install/tb3_ra_interfaces/lib/libtb3_ra_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[4.756s] -- Installing: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/lib/libtb3_ra_interfaces__rosidl_typesupport_c.so
+[4.757s] -- Set runtime path of "/home/miguel/robos_autonomos/install/tb3_ra_interfaces/lib/libtb3_ra_interfaces__rosidl_typesupport_c.so" to ""
+[4.757s] -- Installing: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/lib/libtb3_ra_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[4.757s] -- Set runtime path of "/home/miguel/robos_autonomos/install/tb3_ra_interfaces/lib/libtb3_ra_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.758s] -- Installing: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/lib/libtb3_ra_interfaces__rosidl_typesupport_introspection_cpp.so
+[4.758s] -- Set runtime path of "/home/miguel/robos_autonomos/install/tb3_ra_interfaces/lib/libtb3_ra_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[4.758s] -- Installing: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/lib/libtb3_ra_interfaces__rosidl_typesupport_cpp.so
+[4.758s] -- Set runtime path of "/home/miguel/robos_autonomos/install/tb3_ra_interfaces/lib/libtb3_ra_interfaces__rosidl_typesupport_cpp.so" to ""
+[4.799s] Listing '/home/miguel/robos_autonomos/install/tb3_ra_interfaces/local/lib/python3.10/dist-packages/tb3_ra_interfaces'...
+[4.799s] Compiling '/home/miguel/robos_autonomos/install/tb3_ra_interfaces/local/lib/python3.10/dist-packages/tb3_ra_interfaces/__init__.py'...
+[4.799s] Listing '/home/miguel/robos_autonomos/install/tb3_ra_interfaces/local/lib/python3.10/dist-packages/tb3_ra_interfaces/msg'...
+[4.800s] Compiling '/home/miguel/robos_autonomos/install/tb3_ra_interfaces/local/lib/python3.10/dist-packages/tb3_ra_interfaces/msg/__init__.py'...
+[4.800s] Compiling '/home/miguel/robos_autonomos/install/tb3_ra_interfaces/local/lib/python3.10/dist-packages/tb3_ra_interfaces/msg/_grid_map.py'...
+[4.808s] -- Installing: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/lib/libtb3_ra_interfaces__rosidl_generator_py.so
+[4.808s] -- Set runtime path of "/home/miguel/robos_autonomos/install/tb3_ra_interfaces/lib/libtb3_ra_interfaces__rosidl_generator_py.so" to ""
+[4.808s] -- Up-to-date: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/tb3_ra_interfaces/cmake/export_tb3_ra_interfaces__rosidl_generator_cExport.cmake
+[4.808s] -- Up-to-date: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/tb3_ra_interfaces/cmake/export_tb3_ra_interfaces__rosidl_generator_cExport-noconfig.cmake
+[4.809s] -- Up-to-date: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/tb3_ra_interfaces/cmake/export_tb3_ra_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[4.809s] -- Up-to-date: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/tb3_ra_interfaces/cmake/export_tb3_ra_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.809s] -- Up-to-date: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/tb3_ra_interfaces/cmake/tb3_ra_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[4.809s] -- Up-to-date: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/tb3_ra_interfaces/cmake/tb3_ra_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.809s] -- Up-to-date: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/tb3_ra_interfaces/cmake/tb3_ra_interfaces__rosidl_typesupport_cExport.cmake
+[4.809s] -- Up-to-date: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/tb3_ra_interfaces/cmake/tb3_ra_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[4.809s] -- Up-to-date: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/tb3_ra_interfaces/cmake/export_tb3_ra_interfaces__rosidl_generator_cppExport.cmake
+[4.810s] -- Up-to-date: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/tb3_ra_interfaces/cmake/export_tb3_ra_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.810s] -- Up-to-date: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/tb3_ra_interfaces/cmake/export_tb3_ra_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.810s] -- Up-to-date: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/tb3_ra_interfaces/cmake/tb3_ra_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[4.810s] -- Up-to-date: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/tb3_ra_interfaces/cmake/tb3_ra_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.810s] -- Up-to-date: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/tb3_ra_interfaces/cmake/tb3_ra_interfaces__rosidl_typesupport_cppExport.cmake
+[4.810s] -- Up-to-date: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/tb3_ra_interfaces/cmake/tb3_ra_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[4.810s] -- Up-to-date: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/tb3_ra_interfaces/cmake/export_tb3_ra_interfaces__rosidl_generator_pyExport.cmake
+[4.810s] -- Up-to-date: /home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/tb3_ra_interfaces/cmake/export_tb3_ra_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[4.815s] Invoked command in '/home/miguel/robos_autonomos/build/tb3_ra_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/miguel/robos_autonomos/install/tb3_ra:/opt/ros/humble /usr/bin/cmake --install /home/miguel/robos_autonomos/build/tb3_ra_interfaces

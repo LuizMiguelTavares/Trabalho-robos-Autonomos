@@ -1,0 +1,16 @@
+[1.189s] Invoking command in '/home/miguel/robos_autonomos/build/tb3_ra': PYTHONPATH=/home/miguel/robos_autonomos/build/tb3_ra/prefix_override:/home/miguel/robos_autonomos/install/tb3_ra/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/miguel/robos_autonomos/build/tb3_ra/build --no-deps install_data
+[1.708s] running develop
+[2.019s] running egg_info
+[2.020s] writing tb3_ra.egg-info/PKG-INFO
+[2.020s] writing dependency_links to tb3_ra.egg-info/dependency_links.txt
+[2.020s] writing entry points to tb3_ra.egg-info/entry_points.txt
+[2.020s] writing requirements to tb3_ra.egg-info/requires.txt
+[2.021s] writing top-level names to tb3_ra.egg-info/top_level.txt
+[2.023s] reading manifest file 'tb3_ra.egg-info/SOURCES.txt'
+[2.025s] writing manifest file 'tb3_ra.egg-info/SOURCES.txt'
+[2.027s] running build_ext
+[2.027s] Creating /home/miguel/robos_autonomos/install/tb3_ra/lib/python3.10/site-packages/tb3-ra.egg-link (link to .)
+[2.029s] 
+[2.029s] Installed /home/miguel/robos_autonomos/build/tb3_ra
+[2.029s] running install_data
+[2.079s] Invoked command in '/home/miguel/robos_autonomos/build/tb3_ra' returned '0': PYTHONPATH=/home/miguel/robos_autonomos/build/tb3_ra/prefix_override:/home/miguel/robos_autonomos/install/tb3_ra/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/miguel/robos_autonomos/build/tb3_ra/build --no-deps install_data

@@ -1,0 +1,266 @@
+[0.194s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.194s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fe0e75ca500>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fe0e75c9f90>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fe0e75c9f90>>)
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.236s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/miguel/robos_autonomos'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_ra) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_ra) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_ra) by extension 'ignore_ament_install'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_ra) by extensions ['colcon_pkg']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_ra) by extension 'colcon_pkg'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_ra) by extensions ['colcon_meta']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_ra) by extension 'colcon_meta'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_ra) by extensions ['ros']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_ra) by extension 'ros'
+[0.259s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tb3_ra' with type 'ros.ament_python' and name 'tb3_ra'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_ra_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_ra_bringup) by extension 'ignore'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_ra_bringup) by extension 'ignore_ament_install'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_ra_bringup) by extensions ['colcon_pkg']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_ra_bringup) by extension 'colcon_pkg'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_ra_bringup) by extensions ['colcon_meta']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_ra_bringup) by extension 'colcon_meta'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_ra_bringup) by extensions ['ros']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_ra_bringup) by extension 'ros'
+[0.261s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tb3_ra_bringup' with type 'ros.ament_cmake' and name 'tb3_ra_bringup'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_ra_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_ra_interfaces) by extension 'ignore'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_ra_interfaces) by extension 'ignore_ament_install'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_ra_interfaces) by extensions ['colcon_pkg']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_ra_interfaces) by extension 'colcon_pkg'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_ra_interfaces) by extensions ['colcon_meta']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_ra_interfaces) by extension 'colcon_meta'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_ra_interfaces) by extensions ['ros']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_ra_interfaces) by extension 'ros'
+[0.262s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tb3_ra_interfaces' with type 'ros.ament_cmake' and name 'tb3_ra_interfaces'
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.294s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.294s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.297s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/miguel/turtlebot3_ws/install
+[0.299s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/miguel/robos_autonomos/install
+[0.301s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 371 installed packages in /opt/ros/humble
+[0.303s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'tb3_ra' build argument 'cmake_args' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'tb3_ra' build argument 'cmake_target' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'tb3_ra' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'tb3_ra' build argument 'cmake_clean_cache' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'tb3_ra' build argument 'cmake_clean_first' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'tb3_ra' build argument 'cmake_force_configure' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'tb3_ra' build argument 'ament_cmake_args' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'tb3_ra' build argument 'catkin_cmake_args' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'tb3_ra' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.389s] DEBUG:colcon.colcon_core.verb:Building package 'tb3_ra' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/miguel/robos_autonomos/build/tb3_ra', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/miguel/robos_autonomos/install/tb3_ra', 'merge_install': False, 'path': '/home/miguel/robos_autonomos/src/tb3_ra', 'symlink_install': True, 'test_result_base': None}
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'tb3_ra_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'tb3_ra_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'tb3_ra_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'tb3_ra_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'tb3_ra_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'tb3_ra_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'tb3_ra_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'tb3_ra_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'tb3_ra_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.391s] DEBUG:colcon.colcon_core.verb:Building package 'tb3_ra_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/miguel/robos_autonomos/build/tb3_ra_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/miguel/robos_autonomos/install/tb3_ra_interfaces', 'merge_install': False, 'path': '/home/miguel/robos_autonomos/src/tb3_ra_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'tb3_ra_bringup' build argument 'cmake_args' from command line to 'None'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'tb3_ra_bringup' build argument 'cmake_target' from command line to 'None'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'tb3_ra_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'tb3_ra_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'tb3_ra_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'tb3_ra_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'tb3_ra_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'tb3_ra_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'tb3_ra_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.392s] DEBUG:colcon.colcon_core.verb:Building package 'tb3_ra_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/miguel/robos_autonomos/build/tb3_ra_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/miguel/robos_autonomos/install/tb3_ra_bringup', 'merge_install': False, 'path': '/home/miguel/robos_autonomos/src/tb3_ra_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.393s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.397s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.397s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/miguel/robos_autonomos/src/tb3_ra' with build type 'ament_python'
+[0.398s] Level 1:colcon.colcon_core.shell:create_environment_hook('tb3_ra', 'ament_prefix_path')
+[0.403s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.403s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/miguel/robos_autonomos/install/tb3_ra/share/tb3_ra/hook/ament_prefix_path.ps1'
+[0.404s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/miguel/robos_autonomos/install/tb3_ra/share/tb3_ra/hook/ament_prefix_path.dsv'
+[0.404s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/miguel/robos_autonomos/install/tb3_ra/share/tb3_ra/hook/ament_prefix_path.sh'
+[0.407s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.407s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.414s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/miguel/robos_autonomos/src/tb3_ra_interfaces' with build type 'ament_cmake'
+[0.414s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/miguel/robos_autonomos/src/tb3_ra_interfaces'
+[0.415s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.416s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.776s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/miguel/robos_autonomos/src/tb3_ra'
+[0.778s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.778s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.792s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/miguel/robos_autonomos/build/tb3_ra_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/miguel/robos_autonomos/install/tb3_ra:/opt/ros/humble /usr/bin/cmake --build /home/miguel/robos_autonomos/build/tb3_ra_interfaces -- -j8 -l8
+[1.353s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/miguel/robos_autonomos/build/tb3_ra': PYTHONPATH=/home/miguel/robos_autonomos/build/tb3_ra/prefix_override:/home/miguel/robos_autonomos/install/tb3_ra/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/miguel/robos_autonomos/build/tb3_ra/build --no-deps install_data
+[2.061s] Level 1:colcon.colcon_core.shell:create_environment_hook('tb3_ra', 'pythonpath_develop')
+[2.063s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/miguel/robos_autonomos/build/tb3_ra/share/tb3_ra/hook/pythonpath_develop.ps1'
+[2.065s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/miguel/robos_autonomos/build/tb3_ra' returned '0': PYTHONPATH=/home/miguel/robos_autonomos/build/tb3_ra/prefix_override:/home/miguel/robos_autonomos/install/tb3_ra/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/miguel/robos_autonomos/build/tb3_ra/build --no-deps install_data
+[2.066s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/miguel/robos_autonomos/build/tb3_ra/share/tb3_ra/hook/pythonpath_develop.dsv'
+[2.067s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/miguel/robos_autonomos/build/tb3_ra/share/tb3_ra/hook/pythonpath_develop.sh'
+[2.077s] Level 1:colcon.colcon_core.environment:checking '/home/miguel/robos_autonomos/install/tb3_ra' for CMake module files
+[2.077s] Level 1:colcon.colcon_core.environment:checking '/home/miguel/robos_autonomos/install/tb3_ra' for CMake config files
+[2.078s] Level 1:colcon.colcon_core.environment:checking '/home/miguel/robos_autonomos/install/tb3_ra/lib'
+[2.079s] Level 1:colcon.colcon_core.environment:checking '/home/miguel/robos_autonomos/install/tb3_ra/bin'
+[2.079s] Level 1:colcon.colcon_core.environment:checking '/home/miguel/robos_autonomos/install/tb3_ra/lib/pkgconfig/tb3_ra.pc'
+[2.079s] Level 1:colcon.colcon_core.environment:checking '/home/miguel/robos_autonomos/install/tb3_ra/lib/python3.10/site-packages'
+[2.080s] Level 1:colcon.colcon_core.shell:create_environment_hook('tb3_ra', 'pythonpath')
+[2.082s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/miguel/robos_autonomos/install/tb3_ra/share/tb3_ra/hook/pythonpath.ps1'
+[2.083s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/miguel/robos_autonomos/install/tb3_ra/share/tb3_ra/hook/pythonpath.dsv'
+[2.083s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/miguel/robos_autonomos/install/tb3_ra/share/tb3_ra/hook/pythonpath.sh'
+[2.084s] Level 1:colcon.colcon_core.environment:checking '/home/miguel/robos_autonomos/install/tb3_ra/bin'
+[2.085s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tb3_ra)
+[2.090s] INFO:colcon.colcon_core.shell:Creating package script '/home/miguel/robos_autonomos/install/tb3_ra/share/tb3_ra/package.ps1'
+[2.091s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/miguel/robos_autonomos/install/tb3_ra/share/tb3_ra/package.dsv'
+[2.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/miguel/robos_autonomos/install/tb3_ra/share/tb3_ra/package.sh'
+[2.093s] INFO:colcon.colcon_core.shell:Creating package script '/home/miguel/robos_autonomos/install/tb3_ra/share/tb3_ra/package.bash'
+[2.094s] INFO:colcon.colcon_core.shell:Creating package script '/home/miguel/robos_autonomos/install/tb3_ra/share/tb3_ra/package.zsh'
+[2.095s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/miguel/robos_autonomos/install/tb3_ra/share/colcon-core/packages/tb3_ra)
+[2.096s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/miguel/robos_autonomos/src/tb3_ra_bringup' with build type 'ament_cmake'
+[2.096s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/miguel/robos_autonomos/src/tb3_ra_bringup'
+[2.098s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.099s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.120s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/miguel/robos_autonomos/build/tb3_ra_bringup': AMENT_PREFIX_PATH=/home/miguel/robos_autonomos/install/tb3_ra:/home/miguel/robos_autonomos/install/tb3_ra_interfaces:/home/miguel/robos_autonomos/install/tb3_ra_bringup:/home/miguel/turtlebot3_ws/install/turtlebot3_simulations:/home/miguel/turtlebot3_ws/install/turtlebot3_gazebo:/home/miguel/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/miguel/robos_autonomos/install/tb3_ra:/opt/ros/humble PYTHONPATH=/home/miguel/robos_autonomos/build/tb3_ra:/home/miguel/robos_autonomos/install/tb3_ra/lib/python3.10/site-packages:/home/miguel/robos_autonomos/install/tb3_ra_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/miguel/robos_autonomos/build/tb3_ra_bringup -- -j8 -l8
+[2.169s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/miguel/robos_autonomos/build/tb3_ra_bringup' returned '0': AMENT_PREFIX_PATH=/home/miguel/robos_autonomos/install/tb3_ra:/home/miguel/robos_autonomos/install/tb3_ra_interfaces:/home/miguel/robos_autonomos/install/tb3_ra_bringup:/home/miguel/turtlebot3_ws/install/turtlebot3_simulations:/home/miguel/turtlebot3_ws/install/turtlebot3_gazebo:/home/miguel/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/miguel/robos_autonomos/install/tb3_ra:/opt/ros/humble PYTHONPATH=/home/miguel/robos_autonomos/build/tb3_ra:/home/miguel/robos_autonomos/install/tb3_ra/lib/python3.10/site-packages:/home/miguel/robos_autonomos/install/tb3_ra_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/miguel/robos_autonomos/build/tb3_ra_bringup -- -j8 -l8
+[2.205s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/miguel/robos_autonomos/build/tb3_ra_bringup': AMENT_PREFIX_PATH=/home/miguel/robos_autonomos/install/tb3_ra:/home/miguel/robos_autonomos/install/tb3_ra_interfaces:/home/miguel/robos_autonomos/install/tb3_ra_bringup:/home/miguel/turtlebot3_ws/install/turtlebot3_simulations:/home/miguel/turtlebot3_ws/install/turtlebot3_gazebo:/home/miguel/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/miguel/robos_autonomos/install/tb3_ra:/opt/ros/humble PYTHONPATH=/home/miguel/robos_autonomos/build/tb3_ra:/home/miguel/robos_autonomos/install/tb3_ra/lib/python3.10/site-packages:/home/miguel/robos_autonomos/install/tb3_ra_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/miguel/robos_autonomos/build/tb3_ra_bringup
+[2.238s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tb3_ra_bringup)
+[2.242s] Level 1:colcon.colcon_core.environment:checking '/home/miguel/robos_autonomos/install/tb3_ra_bringup' for CMake module files
+[2.243s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/miguel/robos_autonomos/build/tb3_ra_bringup' returned '0': AMENT_PREFIX_PATH=/home/miguel/robos_autonomos/install/tb3_ra:/home/miguel/robos_autonomos/install/tb3_ra_interfaces:/home/miguel/robos_autonomos/install/tb3_ra_bringup:/home/miguel/turtlebot3_ws/install/turtlebot3_simulations:/home/miguel/turtlebot3_ws/install/turtlebot3_gazebo:/home/miguel/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/miguel/robos_autonomos/install/tb3_ra:/opt/ros/humble PYTHONPATH=/home/miguel/robos_autonomos/build/tb3_ra:/home/miguel/robos_autonomos/install/tb3_ra/lib/python3.10/site-packages:/home/miguel/robos_autonomos/install/tb3_ra_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/miguel/robos_autonomos/build/tb3_ra_bringup
+[2.243s] Level 1:colcon.colcon_core.environment:checking '/home/miguel/robos_autonomos/install/tb3_ra_bringup' for CMake config files
+[2.244s] Level 1:colcon.colcon_core.shell:create_environment_hook('tb3_ra_bringup', 'cmake_prefix_path')
+[2.247s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/miguel/robos_autonomos/install/tb3_ra_bringup/share/tb3_ra_bringup/hook/cmake_prefix_path.ps1'
+[2.248s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/miguel/robos_autonomos/install/tb3_ra_bringup/share/tb3_ra_bringup/hook/cmake_prefix_path.dsv'
+[2.248s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/miguel/robos_autonomos/install/tb3_ra_bringup/share/tb3_ra_bringup/hook/cmake_prefix_path.sh'
+[2.249s] Level 1:colcon.colcon_core.environment:checking '/home/miguel/robos_autonomos/install/tb3_ra_bringup/bin'
+[2.249s] Level 1:colcon.colcon_core.environment:checking '/home/miguel/robos_autonomos/install/tb3_ra_bringup/lib/pkgconfig/tb3_ra_bringup.pc'
+[2.250s] Level 1:colcon.colcon_core.environment:checking '/home/miguel/robos_autonomos/install/tb3_ra_bringup/lib/python3.10/site-packages'
+[2.250s] Level 1:colcon.colcon_core.environment:checking '/home/miguel/robos_autonomos/install/tb3_ra_bringup/bin'
+[2.252s] INFO:colcon.colcon_core.shell:Creating package script '/home/miguel/robos_autonomos/install/tb3_ra_bringup/share/tb3_ra_bringup/package.ps1'
+[2.253s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/miguel/robos_autonomos/install/tb3_ra_bringup/share/tb3_ra_bringup/package.dsv'
+[2.253s] INFO:colcon.colcon_core.shell:Creating package script '/home/miguel/robos_autonomos/install/tb3_ra_bringup/share/tb3_ra_bringup/package.sh'
+[2.254s] INFO:colcon.colcon_core.shell:Creating package script '/home/miguel/robos_autonomos/install/tb3_ra_bringup/share/tb3_ra_bringup/package.bash'
+[2.254s] INFO:colcon.colcon_core.shell:Creating package script '/home/miguel/robos_autonomos/install/tb3_ra_bringup/share/tb3_ra_bringup/package.zsh'
+[2.255s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/miguel/robos_autonomos/install/tb3_ra_bringup/share/colcon-core/packages/tb3_ra_bringup)
+[2.278s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tb3_ra_bringup)
+[2.282s] Level 1:colcon.colcon_core.environment:checking '/home/miguel/robos_autonomos/install/tb3_ra_bringup' for CMake module files
+[2.282s] Level 1:colcon.colcon_core.environment:checking '/home/miguel/robos_autonomos/install/tb3_ra_bringup' for CMake config files
+[2.282s] Level 1:colcon.colcon_core.shell:create_environment_hook('tb3_ra_bringup', 'cmake_prefix_path')
+[2.284s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/miguel/robos_autonomos/install/tb3_ra_bringup/share/tb3_ra_bringup/hook/cmake_prefix_path.ps1'
+[2.284s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/miguel/robos_autonomos/install/tb3_ra_bringup/share/tb3_ra_bringup/hook/cmake_prefix_path.dsv'
+[2.285s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/miguel/robos_autonomos/install/tb3_ra_bringup/share/tb3_ra_bringup/hook/cmake_prefix_path.sh'
+[2.285s] Level 1:colcon.colcon_core.environment:checking '/home/miguel/robos_autonomos/install/tb3_ra_bringup/bin'
+[2.285s] Level 1:colcon.colcon_core.environment:checking '/home/miguel/robos_autonomos/install/tb3_ra_bringup/lib/pkgconfig/tb3_ra_bringup.pc'
+[2.286s] Level 1:colcon.colcon_core.environment:checking '/home/miguel/robos_autonomos/install/tb3_ra_bringup/lib/python3.10/site-packages'
+[2.286s] Level 1:colcon.colcon_core.environment:checking '/home/miguel/robos_autonomos/install/tb3_ra_bringup/bin'
+[2.287s] INFO:colcon.colcon_core.shell:Creating package script '/home/miguel/robos_autonomos/install/tb3_ra_bringup/share/tb3_ra_bringup/package.ps1'
+[2.288s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/miguel/robos_autonomos/install/tb3_ra_bringup/share/tb3_ra_bringup/package.dsv'
+[2.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/miguel/robos_autonomos/install/tb3_ra_bringup/share/tb3_ra_bringup/package.sh'
+[2.290s] INFO:colcon.colcon_core.shell:Creating package script '/home/miguel/robos_autonomos/install/tb3_ra_bringup/share/tb3_ra_bringup/package.bash'
+[2.291s] INFO:colcon.colcon_core.shell:Creating package script '/home/miguel/robos_autonomos/install/tb3_ra_bringup/share/tb3_ra_bringup/package.zsh'
+[2.292s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/miguel/robos_autonomos/install/tb3_ra_bringup/share/colcon-core/packages/tb3_ra_bringup)
+[5.417s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/miguel/robos_autonomos/build/tb3_ra_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/miguel/robos_autonomos/install/tb3_ra:/opt/ros/humble /usr/bin/cmake --build /home/miguel/robos_autonomos/build/tb3_ra_interfaces -- -j8 -l8
+[5.472s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/miguel/robos_autonomos/build/tb3_ra_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/miguel/robos_autonomos/install/tb3_ra:/opt/ros/humble /usr/bin/cmake --install /home/miguel/robos_autonomos/build/tb3_ra_interfaces
+[5.571s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tb3_ra_interfaces)
+[5.574s] Level 1:colcon.colcon_core.environment:checking '/home/miguel/robos_autonomos/install/tb3_ra_interfaces' for CMake module files
+[5.574s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/miguel/robos_autonomos/build/tb3_ra_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/miguel/robos_autonomos/install/tb3_ra:/opt/ros/humble /usr/bin/cmake --install /home/miguel/robos_autonomos/build/tb3_ra_interfaces
+[5.575s] Level 1:colcon.colcon_core.environment:checking '/home/miguel/robos_autonomos/install/tb3_ra_interfaces' for CMake config files
+[5.575s] Level 1:colcon.colcon_core.shell:create_environment_hook('tb3_ra_interfaces', 'cmake_prefix_path')
+[5.577s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/tb3_ra_interfaces/hook/cmake_prefix_path.ps1'
+[5.578s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/tb3_ra_interfaces/hook/cmake_prefix_path.dsv'
+[5.578s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/tb3_ra_interfaces/hook/cmake_prefix_path.sh'
+[5.579s] Level 1:colcon.colcon_core.environment:checking '/home/miguel/robos_autonomos/install/tb3_ra_interfaces/lib'
+[5.579s] Level 1:colcon.colcon_core.shell:create_environment_hook('tb3_ra_interfaces', 'ld_library_path_lib')
+[5.580s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/tb3_ra_interfaces/hook/ld_library_path_lib.ps1'
+[5.581s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/tb3_ra_interfaces/hook/ld_library_path_lib.dsv'
+[5.581s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/tb3_ra_interfaces/hook/ld_library_path_lib.sh'
+[5.581s] Level 1:colcon.colcon_core.environment:checking '/home/miguel/robos_autonomos/install/tb3_ra_interfaces/bin'
+[5.581s] Level 1:colcon.colcon_core.environment:checking '/home/miguel/robos_autonomos/install/tb3_ra_interfaces/lib/pkgconfig/tb3_ra_interfaces.pc'
+[5.582s] Level 1:colcon.colcon_core.environment:checking '/home/miguel/robos_autonomos/install/tb3_ra_interfaces/lib/python3.10/site-packages'
+[5.582s] Level 1:colcon.colcon_core.environment:checking '/home/miguel/robos_autonomos/install/tb3_ra_interfaces/bin'
+[5.583s] INFO:colcon.colcon_core.shell:Creating package script '/home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/tb3_ra_interfaces/package.ps1'
+[5.584s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/tb3_ra_interfaces/package.dsv'
+[5.584s] INFO:colcon.colcon_core.shell:Creating package script '/home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/tb3_ra_interfaces/package.sh'
+[5.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/tb3_ra_interfaces/package.bash'
+[5.586s] INFO:colcon.colcon_core.shell:Creating package script '/home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/tb3_ra_interfaces/package.zsh'
+[5.586s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/colcon-core/packages/tb3_ra_interfaces)
+[5.637s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tb3_ra_interfaces)
+[5.640s] Level 1:colcon.colcon_core.environment:checking '/home/miguel/robos_autonomos/install/tb3_ra_interfaces' for CMake module files
+[5.640s] Level 1:colcon.colcon_core.environment:checking '/home/miguel/robos_autonomos/install/tb3_ra_interfaces' for CMake config files
+[5.641s] Level 1:colcon.colcon_core.shell:create_environment_hook('tb3_ra_interfaces', 'cmake_prefix_path')
+[5.642s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/tb3_ra_interfaces/hook/cmake_prefix_path.ps1'
+[5.643s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/tb3_ra_interfaces/hook/cmake_prefix_path.dsv'
+[5.643s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/tb3_ra_interfaces/hook/cmake_prefix_path.sh'
+[5.644s] Level 1:colcon.colcon_core.environment:checking '/home/miguel/robos_autonomos/install/tb3_ra_interfaces/lib'
+[5.644s] Level 1:colcon.colcon_core.shell:create_environment_hook('tb3_ra_interfaces', 'ld_library_path_lib')
+[5.645s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/tb3_ra_interfaces/hook/ld_library_path_lib.ps1'
+[5.646s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/tb3_ra_interfaces/hook/ld_library_path_lib.dsv'
+[5.646s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/tb3_ra_interfaces/hook/ld_library_path_lib.sh'
+[5.646s] Level 1:colcon.colcon_core.environment:checking '/home/miguel/robos_autonomos/install/tb3_ra_interfaces/bin'
+[5.646s] Level 1:colcon.colcon_core.environment:checking '/home/miguel/robos_autonomos/install/tb3_ra_interfaces/lib/pkgconfig/tb3_ra_interfaces.pc'
+[5.647s] Level 1:colcon.colcon_core.environment:checking '/home/miguel/robos_autonomos/install/tb3_ra_interfaces/lib/python3.10/site-packages'
+[5.647s] Level 1:colcon.colcon_core.environment:checking '/home/miguel/robos_autonomos/install/tb3_ra_interfaces/bin'
+[5.649s] INFO:colcon.colcon_core.shell:Creating package script '/home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/tb3_ra_interfaces/package.ps1'
+[5.650s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/tb3_ra_interfaces/package.dsv'
+[5.650s] INFO:colcon.colcon_core.shell:Creating package script '/home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/tb3_ra_interfaces/package.sh'
+[5.651s] INFO:colcon.colcon_core.shell:Creating package script '/home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/tb3_ra_interfaces/package.bash'
+[5.652s] INFO:colcon.colcon_core.shell:Creating package script '/home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/tb3_ra_interfaces/package.zsh'
+[5.652s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/miguel/robos_autonomos/install/tb3_ra_interfaces/share/colcon-core/packages/tb3_ra_interfaces)
+[5.653s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.653s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.653s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.653s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.661s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.661s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.661s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.676s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.678s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/miguel/robos_autonomos/install/local_setup.ps1'
+[5.679s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/miguel/robos_autonomos/install/_local_setup_util_ps1.py'
+[5.680s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/miguel/robos_autonomos/install/setup.ps1'
+[5.683s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/miguel/robos_autonomos/install/local_setup.sh'
+[5.684s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/miguel/robos_autonomos/install/_local_setup_util_sh.py'
+[5.684s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/miguel/robos_autonomos/install/setup.sh'
+[5.687s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/miguel/robos_autonomos/install/local_setup.bash'
+[5.688s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/miguel/robos_autonomos/install/setup.bash'
+[5.690s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/miguel/robos_autonomos/install/local_setup.zsh'
+[5.691s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/miguel/robos_autonomos/install/setup.zsh'

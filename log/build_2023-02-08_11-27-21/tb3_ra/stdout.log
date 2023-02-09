@@ -1,0 +1,33 @@
+running develop
+Removing /home/miguel/robos_autonomos/install/tb3_ra/lib/python3.10/site-packages/tb3-ra.egg-link (link to .)
+running egg_info
+writing ../../build/tb3_ra/tb3_ra.egg-info/PKG-INFO
+writing dependency_links to ../../build/tb3_ra/tb3_ra.egg-info/dependency_links.txt
+writing entry points to ../../build/tb3_ra/tb3_ra.egg-info/entry_points.txt
+writing requirements to ../../build/tb3_ra/tb3_ra.egg-info/requires.txt
+writing top-level names to ../../build/tb3_ra/tb3_ra.egg-info/top_level.txt
+reading manifest file '../../build/tb3_ra/tb3_ra.egg-info/SOURCES.txt'
+writing manifest file '../../build/tb3_ra/tb3_ra.egg-info/SOURCES.txt'
+running build
+running build_py
+copying tb3_ra/turtlebot3_control.py -> /home/miguel/robos_autonomos/build/tb3_ra/build/lib/tb3_ra
+copying tb3_ra/map_creator.py -> /home/miguel/robos_autonomos/build/tb3_ra/build/lib/tb3_ra
+running install
+running install_lib
+creating /home/miguel/robos_autonomos/install/tb3_ra/lib/python3.10/site-packages/tb3_ra
+copying /home/miguel/robos_autonomos/build/tb3_ra/build/lib/tb3_ra/turtlebot3_control.py -> /home/miguel/robos_autonomos/install/tb3_ra/lib/python3.10/site-packages/tb3_ra
+copying /home/miguel/robos_autonomos/build/tb3_ra/build/lib/tb3_ra/__init__.py -> /home/miguel/robos_autonomos/install/tb3_ra/lib/python3.10/site-packages/tb3_ra
+copying /home/miguel/robos_autonomos/build/tb3_ra/build/lib/tb3_ra/map_creator.py -> /home/miguel/robos_autonomos/install/tb3_ra/lib/python3.10/site-packages/tb3_ra
+copying /home/miguel/robos_autonomos/build/tb3_ra/build/lib/tb3_ra/printing_map.py -> /home/miguel/robos_autonomos/install/tb3_ra/lib/python3.10/site-packages/tb3_ra
+byte-compiling /home/miguel/robos_autonomos/install/tb3_ra/lib/python3.10/site-packages/tb3_ra/turtlebot3_control.py to turtlebot3_control.cpython-310.pyc
+byte-compiling /home/miguel/robos_autonomos/install/tb3_ra/lib/python3.10/site-packages/tb3_ra/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/miguel/robos_autonomos/install/tb3_ra/lib/python3.10/site-packages/tb3_ra/map_creator.py to map_creator.cpython-310.pyc
+byte-compiling /home/miguel/robos_autonomos/install/tb3_ra/lib/python3.10/site-packages/tb3_ra/printing_map.py to printing_map.cpython-310.pyc
+running install_data
+running install_egg_info
+Copying ../../build/tb3_ra/tb3_ra.egg-info to /home/miguel/robos_autonomos/install/tb3_ra/lib/python3.10/site-packages/tb3_ra-0.0.0-py3.10.egg-info
+running install_scripts
+Installing map_creator script to /home/miguel/robos_autonomos/install/tb3_ra/lib/tb3_ra
+Installing printing_map script to /home/miguel/robos_autonomos/install/tb3_ra/lib/tb3_ra
+Installing turtlebot3_control script to /home/miguel/robos_autonomos/install/tb3_ra/lib/tb3_ra
+writing list of installed files to '/home/miguel/robos_autonomos/build/tb3_ra/install.log'
